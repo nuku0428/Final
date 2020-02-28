@@ -2,8 +2,10 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
-<title>�E�ƌP���ۑ�</title>
+
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+
+<title>赤ちゃんランドA</title>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript" src="js/jquery.textresizer.js"></script>
@@ -42,30 +44,30 @@ function MM_swapImage() { //v3.0
 
 $(function(){
 	$("#textresizer a").textresizer({
-		target: "#main-txt",			// �����T�C�Y��ύX�������v�f
-		sizes:  [ "80%", "100%", "120%" ],	// ���E���E��̕����T�C�Y
-		selectedIndex: 1			// ��Ԏn�߂̕����̑傫���i0�`�j
+		target: "#main-txt",			// 文字サイズを変更したい要素
+		sizes:  [ "80%", "100%", "120%" ],	// 小・中・大の文字サイズ
+		selectedIndex: 1			// 一番始めの文字の大きさ（0～）
 	});
 });
 
 $(function(){
 	$("#tegami").carouFredSel({
-		circular: true,				// ���邮���
-		direction : "left",			// �X�N���[���̕���
+		circular: true,				// ぐるぐる回す
+		direction : "left",			// スクロールの方向
 		scroll: {
-			duration: 2000			// �X�N���[���X�s�[�h
+			duration: 2000			// スクロールスピード
 		},
 		auto: {
-			play: true,			// �����ŃX�N���[��
-			pauseDuration: 10000,		// �X�N���[���̒�~����
-			pauseOnHover: false		// �}�E�X�I�[�o�[�ŃX�N���[����~
+			play: true,			// 自動でスクロール
+			pauseDuration: 10000,		// スクロールの停止時間
+			pauseOnHover: false		// マウスオーバーでスクロール停止
 		},
 		items: 2,
 		prev : {	
-			button	: "#button .prev"	// �u�O�ցv�{�^���̗v�f
+			button	: "#button .prev"	// 「前へ」ボタンの要素
 		},
 		next : { 
-			button	: "#button .next"	// �u���ցv�{�^���̗v�f
+			button	: "#button .next"	// 「次へ」ボタンの要素
 		}
 	});
 });
@@ -150,11 +152,11 @@ body {
 <body onLoad="MM_preloadImages('img/sub1-on.jpg','img/sub2-on.jpg','img/sub3-on.jpg','img/sub4-on.jpg','img/sub7-on.jpg','img/sub6-on.jpg','img/sub5-on.jpg')">
 
 <div id="all">
-<p id="top">�e�q�ŗV�ڂ��̃T�C�g�u�Ԃ���񃉃��hA�iBaby land A)�v�ւ悤�����I</p>
+<p id="top">親子で遊ぼうのサイト「赤ちゃんランドA（Baby land A)」へようこそ！</p>
 <ul id="top-nav">
-<li class="right"><a href="#">���⍇�킹</a></li>
-<li><a href="#">�Ԃ���񃉃��h�Ƃ�?</a></li>
-<li><a href="index.html">�g�b�v�y�[�W </a></li>
+<li class="right"><a href="#">お問合わせ</a></li>
+<li><a href="#">赤ちゃんランドとは?</a></li>
+<li><a href="index.html">トップページ </a></li>
 </ul>
 <div id="header">
 <p><img src="img/header.jpg" width="940" height="404" border="0" usemap="#Map">
@@ -170,47 +172,47 @@ body {
 </map>
 </p>
 <div id="textresizer">
-<p>�����T�C�Y:</p>
+<p>文字サイズ:</p>
 
 <ul>
-<li><a href="javascript:;">��</a></li>
-<li><a href="javascript:;">��</a></li>
-<li><a href="javascript:;">��</a></li>
+<li><a href="javascript:;">小</a></li>
+<li><a href="javascript:;">中</a></li>
+<li><a href="javascript:;">大</a></li>
 </ul>
 </div>
 </div>
 <ol id="topic">
 <li><a href="#">home</a></li>
-�Ԃ���񃉃��hA�Ƃ́H
+赤ちゃんランドAとは？
 <li></li>
 <li></li>
 </ol>
 <div id="menu">
 <ul id="subnav">
-<li><a href="index.html"><img src="img/sub1.jpg" alt="�g�b�v�y�[�W" name="a" width="170" height="50" border="0" id="a" onMouseOver="MM_swapImage('a','','img/sub1-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
-<li><a href="#"><img src="img/sub2.jpg" alt="�Ԃ���񃉃��hA�Ƃ́H" name="b" width="170" height="50" border="0" id="b" onMouseOver="MM_swapImage('b','','img/sub2-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
-<li><a href="main-places.html"><img src="img/sub3.jpg" alt="��Ȋ����ꏊ" name="c" width="170" height="51" border="0" class="border" id="c" onMouseOver="MM_swapImage('c','','img/sub3-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
-<li><a href="program-schedule.html"><img src="img/sub4.jpg" alt="�w�K�v���O�����E�X�P�W���[��" name="d" width="170" height="51" border="0" class="border" id="d" onMouseOver="MM_swapImage('d','','img/sub4-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
-<li><a href="smlie.html"><img src="img/sub5.jpg" alt="�݂�Ȃ̏Ί�" name="e" width="170" height="51" border="0" class="border" id="e" onMouseOver="MM_swapImage('e','','img/sub5-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
-<li><a href="le.html"><img src="img/sub6.jpg" alt="�u�t�Љ�" name="f" width="170" height="50" border="0" id="f" onMouseOver="MM_swapImage('f','','img/sub6-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
-<li><a href="contact.html"><img src="img/sub7.jpg" alt="���⍇�킹" name="g" width="170" height="50" border="0" id="g" onMouseOver="MM_swapImage('g','','img/sub7-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+<li><a href="index.html"><img src="img/sub1.jpg" alt="トップページ" name="a" width="170" height="50" border="0" id="a" onMouseOver="MM_swapImage('a','','img/sub1-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+<li><a href="#"><img src="img/sub2.jpg" alt="赤ちゃんランドAとは？" name="b" width="170" height="50" border="0" id="b" onMouseOver="MM_swapImage('b','','img/sub2-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+<li><a href="main-places.html"><img src="img/sub3.jpg" alt="主な活動場所" name="c" width="170" height="51" border="0" class="border" id="c" onMouseOver="MM_swapImage('c','','img/sub3-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+<li><a href="program-schedule.html"><img src="img/sub4.jpg" alt="学習プログラム・スケジュール" name="d" width="170" height="51" border="0" class="border" id="d" onMouseOver="MM_swapImage('d','','img/sub4-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+<li><a href="smlie.html"><img src="img/sub5.jpg" alt="みんなの笑顔" name="e" width="170" height="51" border="0" class="border" id="e" onMouseOver="MM_swapImage('e','','img/sub5-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+<li><a href="le.html"><img src="img/sub6.jpg" alt="講師紹介" name="f" width="170" height="50" border="0" id="f" onMouseOver="MM_swapImage('f','','img/sub6-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
+<li><a href="contact.html"><img src="img/sub7.jpg" alt="お問合わせ" name="g" width="170" height="50" border="0" id="g" onMouseOver="MM_swapImage('g','','img/sub7-on.jpg',1)" onMouseOut="MM_swapImgRestore()"></a></li>
 </ul>
 <p id="kansou">&nbsp;</p>
 <p id="kansou">&nbsp;</p>
 </div>
 <div id="main-txt">
-<h1>�Ԃ���񃉃��hA�Ƃ́H</h1>
-<h2>�hbaby land A?�h</h2>
-<p class="v">�Ԃ���񃉃��h�ł́A�q���ƐG�ꍇ���Ȃ���q��Ă̊y������̓����܂��B<br>
-�l�Ԃ̉\���E�琬�ɍK���������A�܂��܂��K���ɂȂ邱�Ƃ��������܂��B</p>
-<p class="v"><img src="img/baby-landa.jpg" alt="���N���N����q��āE�l�Ԃ̉\���E���ǂ��Љ��" width="583" height="477"></p>
+<h1>赤ちゃんランドAとは？</h1>
+<h2>”baby land A?”</h2>
+<p class="v">赤ちゃんランドでは、子供と触れ合いながら子育ての楽しさを体得します。<br>
+人間の可能性・育成に幸せを感じ、ますます幸せになることを応援します。</p>
+<p class="v"><img src="img/baby-landa.jpg" alt="ワクワクする子育て・人間の可能性・より良い社会へ" width="583" height="477"></p>
 <p id="text">&nbsp;</p>
-<p class="v">�܏\�������A�A���t�@�x�b�g���A�uA]����n�܂�܂��B<br>
-�Ԃ���񃉃��h�́hA�h�́A�n�܂�̈Ӗ������߂��Ă��܂��B<br>
+<p class="v">五十音順も、アルファベットも、「A]から始まります。<br>
+赤ちやんランドの”A”は、始まりの意味が込められています。<br>
 <br>
-���ꂩ�為�Ўq��Ă��y�������Ɗ����Ă�����B<br>
-�q��Ă��Ăǂ��Ȃ́H�Ɗ����Ă�����B<br>
-���ׂĂ̕��ɁA�`�����X��񋟁E�������܂��B</p>
+これからぜひ子育てを楽しもうと感じている方。<br>
+子育てってどうなの？と感じている方。<br>
+すべての方に、チャンスを提供・応援します。</p>
 </div>
 
 <p>&nbsp;</p>
